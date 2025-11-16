@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Thanh toán • PayToWin</title>
+    <link rel="stylesheet" href="./styles.css?v=1" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html"
+          ><span class="brand-badge">P</span><span>PayToWin</span></a
+        >
+        <div class="search"><input placeholder="Tìm kiếm…" /></div>
+        <div class="nav">
+          <a href="index.html">Trang chủ</a><a href="products.html">Sản phẩm</a
+          ><a href="support.html">Hỗ trợ</a><a href="login.html">Đăng nhập</a>
+        </div>
+        <a class="cta-cart" href="cart.html">Giỏ hàng</a>
+      </div>
+    </div>
+
+    <main class="container">
+      <section class="section">
+        <h2>Thanh toán</h2>
+        <div
+          style="display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 18px"
+        >
+          <div class="card">
+            <form class="form">
+              <div>
+                <label>Họ và tên</label
+                ><input class="input" placeholder="Nguyễn Văn A" />
+              </div>
+              <div
+                style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px"
+              >
+                <div>
+                  <label>Số điện thoại</label
+                  ><input class="input" placeholder="09xxxxxxxx" />
+                </div>
+                <div>
+                  <label>Email</label
+                  ><input
+                    class="input"
+                    type="email"
+                    placeholder="ban@example.com"
+                  />
+                </div>
+              </div>
+              <div>
+                <label>Địa chỉ</label
+                ><input
+                  class="input"
+                  placeholder="Số nhà, đường, phường/xã, quận/huyện, tỉnh/thành"
+                />
+              </div>
+              <div>
+                <label>Phương thức thanh toán</label>
+                <select class="input">
+                  <option>Thanh toán khi nhận hàng</option>
+                  <option>Chuyển khoản momo</option>
+                  <option>Chuyển khoản ngân hàng</option>
+                </select>
+              </div>
+              <a class="add-btn" href="#">Xác nhận đơn hàng</a>
+            </form>
+          </div>
+          <div class="summary">
+            <h3>Tóm tắt đơn hàng</h3>
+            <p>3 sản phẩm • Tạm tính: <strong>52.000₫</strong></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer"><div class="container cols">…</div></footer>
+  </body>
+</html>
